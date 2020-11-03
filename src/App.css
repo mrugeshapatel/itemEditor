@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #666666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(20px + 2vmin);
+  color: white;
+  padding: 5px 12px;
+}
+
+.title-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-content {
+  height: calc(100vh - calc(10px + 3vmin));
+}
+
+.item-list {
+  display: inline-block;
+  width: 15%;
+  background-color: #cccccc;
+  min-height: 100%;
+  vertical-align: top;
+}
+
+.item-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item-list ul > li {
+  text-align: left;
+  padding: 12px;
+  border-right: #666666 2px solid;
+  border-bottom: #666666 2px solid;
+}
+
+.item-list ul > li[data-mode='active'] {
+  border-right: none;
+  background-color: white;
+}
+
+.field-content {
+  display: inline-block;
+  width: 85%;
+  margin-top: 48px;
+}
+
+.item-field-container {
+  display: grid;
+  text-align: initial;
+  width: calc(30vw);
+  max-width: 750px;
+  margin-top:12px;
+  margin-bottom: 12px;
+}
+
+.item-container input, label {
+  line-height: 20px;
+  height: 20px;
+}
+
+.item-container select {
+  line-height: 20px;
+  height: 30px;
+}
+
+.item-field-container label {
+  margin-bottom: 5px;
+}
+
+.item-field-container[type="checkbox"] {
+  display: flex;
+  margin-left: -3px;
+}
+.item-field-container[type="checkbox"] label {
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
+.item-container {
+  display: inline-block;
+  margin: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.display-flex { 
+  display: flex;
+}
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-left {
+  justify-content: flex-start;
+}
+
+.flex-right {
+  justify-content: flex-end;
+}
+
+.App-header ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+ 
+}
+
+.App-header ul > li {
+  margin-left: 12px;
+}
+
+.App-header ul > li > button {
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 12px;
+  border: none
+}
+
+.App-header ul > li > button:hover {
+  background-color: #cccccc;
+  color: red;
+}

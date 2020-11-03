@@ -1,0 +1,134 @@
+[ 
+    {
+        "id": "item_1",
+        "name": "Item 1",
+        "fields": [
+            {
+                "id": "if_1_1",
+                "fieldName": "if_1_1_text",
+                "fieldType": "text",
+                "fieldValue": "test value"
+            },
+            {
+                "id": "if_1_2",
+                "fieldName": "if_1_2_text",
+                "fieldType": "text",
+                "fieldValue": 12
+            },
+            {
+                "id": "if_1_3",
+                "fieldName": "if_1_3_toggle",
+                "fieldType": "toggle",
+                "fieldValue": false
+            },
+            {
+                "id": "if_1_4",
+                "fieldName": "if_1_4_text",
+                "fieldType": "option",
+                "fieldValue": 2,
+                "fieldOptions": [
+                    {
+                        "optionName": "Option 1 for Item 1",
+                        "optionValue": 1
+                    },
+                    {
+                        "optionName": "Option 1 for Item 2",
+                        "optionValue": 2
+                    },
+                    {
+                        "optionName": "Option 1 for Item 3",
+                        "optionValue": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "item_2",
+        "name": "Item 2",
+        "fields": [
+            {
+                "id": "if_2_1",
+                "fieldName": "if_2_1_text",
+                "fieldType": "text",
+                "fieldValue": "test value"
+            },
+            {
+                "id": "if_2_2",
+                "fieldName": "if_2_2_text",
+                "fieldType": "toggle",
+                "fieldValue": false
+            },
+            {
+                "id": "if_2_3",
+                "fieldName": "if_2_3_toggle",
+                "fieldType": "text",
+                "fieldValue": 12
+            },
+            {
+                "id": "if_2_4",
+                "fieldName": "if_2_4_text",
+                "fieldType": "option",
+                "fieldValue": 2,
+                "fieldOptions": [
+                    {
+                        "optionName": "Option 1 for Item 1",
+                        "optionValue": 1
+                    },
+                    {
+                        "optionName": "Option 1 for Item 2",
+                        "optionValue": 2
+                    },
+                    {
+                        "optionName": "Option 1 for Item 3",
+                        "optionValue": 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "item_3",
+        "name": "Item 3",
+        "fields": [
+            {
+                "id": "if_3_1",
+                "fieldName": "if_3_1_text",
+                "fieldType": "text",
+                "fieldValue": "test value"
+            },
+            {
+                "id": "if_3_2",
+                "fieldName": "if_3_2_text",
+                "fieldType": "text",
+                "fieldValue": 12
+            },
+            {
+                "id": "if_3_3",
+                "fieldName": "if_3_3_toggle",
+                "fieldType": "toggle",
+                "fieldValue": false
+            },
+            {
+                "id": "if_3_4",
+                "fieldName": "if_3_4_text",
+                "fieldType": "option",
+                "fieldValue": 2,
+                "fieldOptions": [
+                    {
+                        "optionName": "Option 1 for Item 1",
+                        "optionValue": 1
+                    },
+                    {
+                        "optionName": "Option 1 for Item 2",
+                        "optionValue": 2
+                    },
+                    {
+                        "optionName": "Option 1 for Item 3",
+                        "optionValue": 3
+                    }
+                ]
+            }
+        ]
+    }
+]
